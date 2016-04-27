@@ -1,0 +1,23 @@
+{
+  "name": "my_product",
+  "version": "1.0.0",
+  "description": "rest api for product and category",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec"
+  },
+  "author": "Nestor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "flat-to-nested": "^1.0.2",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
