@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "node test/test.js | tap-spec",
-	"start": "sudo node app"
+	"start": "node app"
   },
   "author": "Nestor",
   "license": "ISC",
@@ -16,7 +16,6 @@
     "mysql": "^2.10.2"
   },
   "devDependencies": {
-    "sinon": "^1.17.3",
     "supertest": "^1.2.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1"
