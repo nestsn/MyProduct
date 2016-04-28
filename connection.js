@@ -8,7 +8,7 @@ function Connection() {
 			connectionLimit: 10,
 			host: 'localhost',
 			user: 'root',
-			password: '',
+			password: '874521',
 			database: 'my_products'
 		});
 	};
