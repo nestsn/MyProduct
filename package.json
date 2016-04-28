@@ -4,8 +4,8 @@
   "description": "rest api for product and category",
   "main": "app.js",
   "scripts": {
-    "test": "node test/test.js | tap-spec"
-	"start": "node app.js"
+    "test": "node test/test.js | tap-spec",
+	"start": "node app"
   },
   "author": "Nestor",
   "license": "ISC",
